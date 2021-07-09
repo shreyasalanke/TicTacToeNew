@@ -50,4 +50,11 @@ public class TicTacToe
 	            userOption();
 	        }
 	    }
+
+	    public static int indexSelection(Scanner matrix_value) 
+		{
+			System.out.println("Enter the index value between 1 to 9");
+			return matrix_value.nextInt();
+		}
 	}
+	
